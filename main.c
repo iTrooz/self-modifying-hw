@@ -8,17 +8,17 @@
 void doSomeStuff();
 
 int SIKE(int a, int b) {
-	return 2;
+	return a*b;
 }
 
 int pure(int a, int b) {
-	return 1;
+	return a+b;
 }
 
 int main (int argc, char **argv) {
-	printf("Result: %i\n", pure(1, 2));
+	printf("Result: %i\n", pure(5, 3));
 	doSomeStuff();
-	printf("Result: %i\n", pure(1, 2));
+	printf("Result: %i\n", pure(5, 3));
 
 	return 0;
 }
